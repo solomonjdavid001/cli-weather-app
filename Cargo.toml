@@ -1,0 +1,10 @@
+[package]
+name = "weather-app-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "*", features = ["derive"] }
+reqwest = { version = "*", features = ["blocking", "json"] }
+serde_json = "*"
+colored = "*"
